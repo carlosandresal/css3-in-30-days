@@ -3,3 +3,198 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+.facebook-style-btn {
+    border-radius: 2px;
+    font-size: .9rem;
+    padding: 6px 12px;
+}
+
+.facebook-style-dark {
+    -moz-box-shadow: inset 0 1px 0 0 #4d73bf;
+    -webkit-box-shadow: inset 0 1px 0 0 #4d73bf;
+    box-shadow: inset 0 1px 0 0 #4d73bf;
+    background-color: #4267b2;
+    border: solid 1px #4267b2;
+    color: white;
+    text-shadow: 0 1px 0 #3359a5;
+}
+
+.facebook-style-dark:hover {
+    background-color: #2b54a7;
+}
+
+.facebook-style-dark:active {
+    background-color: #1d4698;
+    border-color: #1d4698;
+}
+
+.facebook-style-light {
+    background-color: #f6f7f9;
+    border: solid 1px #c3d0d4;
+    color: #4b4f56;
+}
+
+.facebook-style-light:hover {
+    background-color: #e9ebee;
+}
+
+.facebook-style-light:active {
+    background-color: #d8dade;
+    border-color: #d8dade;
+}
+
+/*===========================
+    3D Button 1
+============================*/
+
+.btn-3d-1 {
+    position: relative;
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    font-size: 1.4rem;
+    -moz-box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+    -webkit-box-shadow: -6px 6px 0 hsl(16%, 100%, 30%);
+    box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+    outline: none;
+}
+
+.btn-3d-1:hover {
+    background-color: hsl(16, 100%, 45%);
+}
+
+.btn-3d-1:active {
+    background-color: hls(16, 100%, 40%);
+    top: 3px;
+    left: -3px;
+    -webkit-box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
+    box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
+}
+
+.btn-3d-1::before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    
+    border: solid 6px transparent;
+    border-right: solid 6px hsl(16, 100%, 30%);
+    border-left-width: 0;
+    background-color: none;
+    top: 0;
+    left: -6px;
+}
+
+.btn-3d-1::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    
+    border: solid 6px transparent;
+    border-top: solid 6px hsl(16, 100%, 30%);
+    border-bottom-width: 0;
+    background-color: none;
+    right: 0;
+    bottom: -6px;
+}
+
+.btn-3d-1:active::before {
+    border: solid 3px transparent;
+    border-right: solid 3px hsl(16, 100%, 30%);
+    border-left-width: 0;
+    left: -3px;
+    
+}
+
+.btn-3d-1:active::after {
+    border: solid 3px transparent;
+    border-top: solid 3px hsl(16, 100%, 30%);
+    border-bottom-width: 0;
+    bottom: -3px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
